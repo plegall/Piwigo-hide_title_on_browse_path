@@ -1,0 +1,1 @@
+Masquer le titre de la photo sur l'arborescence du chemin
