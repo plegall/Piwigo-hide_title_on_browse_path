@@ -1,0 +1,1 @@
+Ocultar el título de la foto en el directorio.
