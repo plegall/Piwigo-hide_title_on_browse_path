@@ -23,7 +23,7 @@ function hide_title_on_browse_path()
 
 function hide_title_on_browse_path_prefilter($content, &$smarty)
 {
-  $pattern = '#\{\$LEVEL_SEPARATOR\}\{\$current.TITLE\}#ms';
+  $pattern = '#<span class="browsePathSeparator">\{\$LEVEL_SEPARATOR\}</span><h2>\{\$current.TITLE\}</h2>#ms';
   $replacement = '';
   return preg_replace($pattern, $replacement, $content);
 }
