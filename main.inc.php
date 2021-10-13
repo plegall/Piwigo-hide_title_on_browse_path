@@ -21,7 +21,7 @@ function hide_title_on_browse_path()
   $template->set_prefilter('picture', 'hide_title_on_browse_path_prefilter');
 }
 
-function hide_title_on_browse_path_prefilter($content, &$smarty)
+function hide_title_on_browse_path_prefilter($content)
 {
   $pattern = '#<span class="browsePathSeparator">\{\$LEVEL_SEPARATOR\}</span><h2>\{\$current.TITLE\}</h2>#ms';
   $replacement = '';
